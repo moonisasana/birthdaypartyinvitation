@@ -54,12 +54,4 @@ footer {
   bottom: 0; 
 }
 
-.social-media a{
-    display: inline-block;
-    margin: 0 10px;
-}
 
-.social-media img{
-    width: 40px;
-    height: auto;
-}

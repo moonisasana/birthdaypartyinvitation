@@ -9,10 +9,9 @@ header {
     background-color: #333; 
     text-align: center; 
     color: white; 
-    padding: 10px 0; 
-    width: 100%; 
-    left: 0;
-    top: 0;
+    width: 100%;
+    padding: 5px 0;
+    position: fixed;
 } 
 
 nav ul { 
@@ -35,7 +34,7 @@ nav ul li a:hover {
 } 
 
 main { 
-    align-items: center;
+    justify-content: center;
     text-align: center; 
 } 
 
@@ -43,9 +42,9 @@ footer {
   background-color: #333; 
   color: white; 
   text-align: center; 
-  padding: 10px 0; 
   position: fixed; 
   width: 100%; 
+  padding: 0;
   bottom: 0; 
 }
   

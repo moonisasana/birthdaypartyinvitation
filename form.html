@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>RSVP</title> 
+        <link rel="stylesheet" href="style.css"> 
+    </head> 
+    
+    <body> 
+        <header> 
+            <nav> <ul> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="gallery.html">Gallery</a></li> 
+                <li><a href="form.html">RSVP</a></li> 
+            </ul> </nav> 
+        </header> 
+        
+        <main> <section class="form"> 
+            <h1>RSVP for the Party</h1> 
+<!--             <form action="submit_rsvp.php" method="post">  -->
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name" required> 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required> 
+                <label for="attendance">Will you attend?</label> 
+                <select id="attendance" name="attendance" required> 
+                    <option value="yes">Yes</option> 
+                    <option value="no">No</option> 
+                </select> 
+                <input type="submit" value="Submit"> 
+            </form> 
+        </section> </main> 
+        
+        <footer> 
+            <p>&copy; 2024 [Your Name]</p> 
+        </footer> 
+    </body> 
+</html>

@@ -18,7 +18,7 @@
         
         <main> <section class="form"> 
             <h1>RSVP for the Party</h1> 
-            <form> <!--  action="submit_rsvp.php" method="post"  -->
+            <form onsubmit="alert('Thank you for your response'); this.reset(); return false;">
                 <label for="name">Name:</label> 
                 <input type="text" id="name" name="name" required> 
                 <label for="email">Email:</label> 
@@ -28,9 +28,16 @@
                     <option value="yes">Yes</option> 
                     <option value="no">No</option> 
                 </select> 
-                <input type="submit" value="Submit"> 
+                <button type="submit">Submit</button>
             </form> 
         </section> </main> 
+
+        <!-- <script>
+            document.getElementById("rsvpform").addEventListener('submit', function(event){
+                event.preventDefault();
+                alert('Thank you for your response!!')
+            });
+        </script> -->
         
         <footer> 
             <p>&copy; 2024 [Your Name]</p> 

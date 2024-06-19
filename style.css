@@ -24,6 +24,7 @@ nav ul {
 } 
 
 nav ul li { 
+  position: fixed;
   display: inline; 
   margin: 0 10px; 
 } 

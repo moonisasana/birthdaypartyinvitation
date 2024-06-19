@@ -41,6 +41,9 @@ main {
     text-align: center; 
     padding: 20px;
     padding-top: 80px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    min-height: calc(100vh-120px);
 } 
 
 h1 {

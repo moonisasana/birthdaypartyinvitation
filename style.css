@@ -9,8 +9,11 @@ header {
     background-color: #333; 
     text-align: center; 
     color: white; 
-    width: 100%;
-    padding: 5px 0;
+    width: 100vw;
+    position: fixed;
+    padding: 1em 0;
+    top: 0;
+    z-index: 1000;
 } 
 
 nav ul { 
@@ -36,6 +39,7 @@ main {
     justify-content: center;
     text-align: center; 
     padding: 20px;
+    padding-top: 80px;
 } 
 
 h1 {

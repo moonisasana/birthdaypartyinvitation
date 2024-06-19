@@ -11,7 +11,7 @@ header {
   color: white; 
   width: 100%;
   position: fixed;
-  padding: 1em 0;
+  padding: 0.5em;
   z-index: 1000;
   box-sizing: border-box;
 } 

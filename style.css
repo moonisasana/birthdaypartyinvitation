@@ -42,16 +42,6 @@ main {
     height: 100%;
     object-fit: contain;
 }
-    
-footer { 
-    background-color: #333; 
-    color: white; 
-    text-align: center; 
-    position: fixed; 
-    width: 100%; 
-    padding: 10px 0;
-    bottom: 0; 
-}
 
 .gallery .gift { 
     display: inline-block;
@@ -92,4 +82,3 @@ footer {
     bottom: 0; 
 }
 
-  
